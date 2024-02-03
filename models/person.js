@@ -16,7 +16,7 @@ mongoose
   });
 
 const phoneValidation = (validation) =>
-  /^(\d{2}-\d{8}|\d{3}-\d{8})/.test(validation);
+  /^(\d{2}-\d{7}|\d{3}-\d{7}|\d{2}-\d{8}|\d{3}-\d{8})/.test(validation);
 
 const personSchema = new mongoose.Schema({
   name: {
