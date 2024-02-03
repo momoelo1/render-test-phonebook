@@ -9,7 +9,7 @@ Content-Type: application/json
 
 {
     "name": "Moad Elomari",
-    "number": "557893145"
+    "number": 557893145
 }
 
 
